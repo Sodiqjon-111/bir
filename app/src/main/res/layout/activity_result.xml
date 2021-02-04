@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clear"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="100sp"
+        android:textStyle="bold"
+        android:text="Result"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="@color/purple_700"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:src="@drawable/win"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textStyle="bold"
+        android:text="Hi! Congratulations"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"/>
+    <TextView
+        android:id="@+id/userNameLast"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textStyle="bold"
+        android:text="username"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textColor="@color/purple_700"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:text="Your Score is "
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/correctAnswer"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="30sp"/>
+        <TextView
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:text=" out of 10"
+            android:textSize="30sp"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/finishbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:padding="15sp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="Finish"/>
+
+
+
+
+
+</LinearLayout>
